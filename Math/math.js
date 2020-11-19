@@ -21,9 +21,11 @@ let result = 5 && null && 10
 console.log(result)
 */
 
-let age = 15;
-if ( 14 <= age <= 90) {
-    console.log("nice")
+let age = +prompt('How old are you?', '');
+if ( age >= 14 && age <= 90) {
+    alert("Nice")
+} else {
+    alert('Fuck you!')
 }
 
 
